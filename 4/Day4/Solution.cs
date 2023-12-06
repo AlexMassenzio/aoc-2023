@@ -14,7 +14,7 @@ public class Solution
             int scratchoffStartIndex = 0;
 
             //Load winning numbers into hashset for fast lookup
-            for (int i = 2; i < words.Count; i++)
+            for (int i = 0; i < words.Count; i++)
             {
                 if (words[i] == "|")
                 {

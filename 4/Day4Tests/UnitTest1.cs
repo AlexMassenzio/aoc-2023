@@ -17,7 +17,7 @@ public class UnitTest1
     {
         int expectedValue = 8;
         HashSet<string> winningNumbers = new HashSet<string> { "41", "48", "83", "86", "17" };
-        List<string> scratchoffResults = new List<string> { "83", "86", "6", "31", "17", "", "9", "48", "53" };
+        List<string> scratchoffResults = new List<string> { "83", "86", "", "6", "31", "17", "9", "48", "53" };
 
         int result = findMatchingNumbers(winningNumbers, scratchoffResults);
 
